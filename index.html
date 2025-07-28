@@ -10,17 +10,20 @@
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans p-6">
   <main class="max-w-2xl mx-auto bg-white shadow-xl rounded-lg p-6" role="main">
-    <h1 class="text-2xl font-bold mb-4">Démo indexBD : 🚀 </h1>
+    <h1 class="text-2xl font-bold mb-4">
+      Démo indexBD : 
+      <span aria-hidden="true">🚀</span>
+    </h1>
 
     <form id="profileForm" class="space-y-4" aria-label="Formulaire de profil utilisateur">
-      <div>
+      <div role="group">
         <label for="username" class="block text-sm font-medium">Nom d'utilisateur</label>
-        <input id="username" name="username" type="text" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200" autofocus placeholder="Votre mail">
+        <input id="username" name="email" type="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200" autofocus placeholder="Votre mail">
       </div>
 
-      <div>
+      <div role="group" aria-labelledby="theme">
         <label for="theme" class="block text-sm font-medium">Thème préféré</label>
-        <select id="theme" name="theme" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+        <select id="theme" name="theme" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" aria-label="Sélection du thème">
           <option value="light">Clair</option>
           <option value="dark">Sombre</option>
         </select>
@@ -41,7 +44,7 @@
         "@type": "Person",
         "name": "Utilisateur Anonyme",
         "description": "Profil utilisateur enregistré via cookie et IndexedDB",
-        "url": "https://example.com/profile"
+        "url": "https://giusmili.github.io/index-db-js/"
       }
   </script>
 </body>
