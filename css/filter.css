@@ -13,11 +13,18 @@ h1{
 input[type="text"]{
     display: inline-block;
     padding: 0.5rem 1rem; 
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
 
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0  0 .5rem .4rem rgba(232, 123, 206, 0.25);
+    
 }
 select{
     min-height: 2.5rem;
     padding-left: 1rem; 
+   
    
 }
