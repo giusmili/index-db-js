@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap');
+/* filter css main */
+.font-sans{
+ 
+    font-family: 'Matangi', sans-serif;
+    color: #333;
+    letter-spacing: .1rem;
+}
+h1{
+    font-weight: 300;
+}
+
+input[type="text"]{
+    display: inline-block;
+    padding: 0.5rem 1rem; 
+    border: 1px solid transparent
+
+}
+select{
+    min-height: 2.5rem;
+    padding-left: 1rem; 
+   
+}
