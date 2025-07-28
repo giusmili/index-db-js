@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
       .find(row => row.startsWith(name + '='))
       ?.split('=')[1] || null;
 
-  const updateJsonLd = (username = "Utilisateur Anonyme") => {
+  const updateJsonLd = (username = "William") => {
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": username,
       "description": "Profil utilisateur enregistré via cookie et IndexedDB",
-      "url": "https://example.com/profile"
+      "url": "https://giusmili.github.io/index-db-js/"
     };
     const script = document.getElementById("profileJsonLd");
     if (script) {
