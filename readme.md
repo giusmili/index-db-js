@@ -13,3 +13,14 @@ Dans notre script js, on crée une base de données nommée ```UserProfileDB```.
             🎨 theme – préférence de thème stockée dans l’enregistrement.
 ```
 Ces éléments correspondent au code JS : à l’ouverture de la base (indexedDB.open), on crée le store "profiles" avec keyPath: "id". Lors de la soumission du formulaire, on enregistre un objet ``` {id: "main", username, theme}``` dans le store.
+
+```
+├── 📁 .dist/
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 css/
+│   └── 🎨 filter.css
+├── 📁 js/
+│   └── 📄 app.js
+├── 🌐 index.html
+└── 📖 readme.md
+```
